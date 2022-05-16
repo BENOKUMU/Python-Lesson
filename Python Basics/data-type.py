@@ -27,3 +27,15 @@ t = (5, 'progran', 1+3j)
 #Set - unordered collection of unique items
 a = {5, 3, 1, 5}
 print(type(a))
+
+
+
+# Variables - containers for storing data values
+x = 5
+name = "Benjamin"
+print(x, name)
+
+#casting
+x = str(5)
+z = float(5)
+y = int('98')
