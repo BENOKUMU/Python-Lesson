@@ -43,3 +43,24 @@ def sum( arg1, arg2 ):
 sum( 10, 20 )
 print ("Outside the function global total : ", total )
 
+
+#Fibonacci numbers module
+def fib(n):
+    result = []
+    a, b = 0, 1
+    while b < n:
+        result.append(b)
+        a, b = b, a + b
+    return result
+
+# from fib import fib
+if __name__=="__main__":
+    f = fib(100)
+    print(f)
+
+
+
+###### MODULE
+import support
+support.print_func("zara")
+reload(support)
